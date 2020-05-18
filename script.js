@@ -76,11 +76,11 @@ class Audio_player {
 
     play_pause(){
         if (this.isPlayed == false){
-            this.play_button.src ="./img/pause.png";
+            this.play_button.src ="pause.png";
             this.audio_file.play();
             this.isPlayed = true;
         }else {
-            this.play_button.src ="./img/play.png";
+            this.play_button.src ="play.png";
             this.audio_file.pause();
             this.isPlayed = false;
         }
