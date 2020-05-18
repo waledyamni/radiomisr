@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    background: rgb(214, 214, 214);
     
 }
 main {
@@ -54,6 +53,7 @@ img {
     position: absolute;
     left: 50%;
     transform: translateX(-65%);
+    background: rgb(214, 214, 214);
         
     
 }
